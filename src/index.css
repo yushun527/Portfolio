@@ -1,6 +1,12 @@
 .background {
-  background: linear-gradient(silver, white);
+  background: linear-gradient(white, silver);
+  height: 100vh;
 }
+
+.background-color {
+  background: linear-gradient(white, silver);
+}
+
 .font-main {
   font-family: 'Oswald', sans-serif;
 }
@@ -44,16 +50,37 @@
 }
 
 .plofile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  margin: 40px;
 }
 
-.box {
+.aboutme {
+  font-size: large;
   text-align: center;
+  margin: 40px;
 }
 
 .skill {
   width: 100px;
   display: inline-block;
+}
+
+.picture2 {
+  margin: 0 auto;
+}
+
+.textarea {
+  width: 60%;
+  margin: 0 auto;
+}
+.form {
+  text-align: center;
+  margin: 30px;
+}
+
+.button {
+  text-align: center;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
 }
