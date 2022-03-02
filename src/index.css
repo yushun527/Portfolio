@@ -3,10 +3,6 @@
   height: 100vh;
 }
 
-.background-color {
-  background: linear-gradient(white, silver);
-}
-
 .font-main {
   font-family: 'Oswald', sans-serif;
 }
