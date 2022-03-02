@@ -25,30 +25,6 @@
   padding: 40px;
 }
 
-.homebody {
-  text-align: center;
-}
-
-.service {
-  margin-left: 11%;
-  text-align: center;
-}
-
-.button {
-  width: 80px;
-  height: 80px;
-}
-
-.point {
-  margin-left: 24%;
-}
-
-.abc {
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .layout {
   text-align: center;
 }
@@ -56,4 +32,10 @@
 .margin {
   display: inline-block;
   margin: 10px 60px;
+}
+
+.plofile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
