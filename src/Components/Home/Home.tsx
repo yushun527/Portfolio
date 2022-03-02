@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Body from './Homebody';
+import Skills from './Skills';
 
 const Home: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const Home: React.FC = () => {
         </Card.ImgOverlay>
       </Card>
       <h1 className="word">Skills</h1>
-      <h2 className="word2">HTML, CSS, JavaScript, TypeScript, React</h2>
+      <Skills />
       <h1 className="word">Works</h1>
       <Body />
     </>

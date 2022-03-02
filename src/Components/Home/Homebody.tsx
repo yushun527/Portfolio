@@ -14,9 +14,7 @@ const Body: React.FC = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content.
             </Card.Text>
-            <Button href="" variant="primary">
-              Go somewhere
-            </Button>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '25rem' }} className="margin">
@@ -27,9 +25,7 @@ const Body: React.FC = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content.
             </Card.Text>
-            <Button href="/Comic" variant="primary">
-              Go somewhere
-            </Button>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
       </>
@@ -42,9 +38,7 @@ const Body: React.FC = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content.
             </Card.Text>
-            <Button href="Music" variant="primary">
-              Go somewhere
-            </Button>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
 
@@ -56,9 +50,7 @@ const Body: React.FC = () => {
               Some quick example text to build on the card title and make up the
               bulk of the cards content.
             </Card.Text>
-            <Button href="Etc" variant="primary">
-              Go somewhere
-            </Button>
+            <Button variant="primary">Go somewhere</Button>
           </Card.Body>
         </Card>
       </>

@@ -1,3 +1,6 @@
+.background {
+  background: linear-gradient(silver, white);
+}
 .font-main {
   font-family: 'Oswald', sans-serif;
 }
@@ -12,6 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 900;
 }
 
 .word {
@@ -21,8 +25,13 @@
 }
 
 .word2 {
+  font-size: larger;
   text-align: center;
-  padding: 40px;
+  margin: 10px;
+}
+
+.language {
+  padding-bottom: 10px;
 }
 
 .layout {
@@ -41,5 +50,10 @@
 }
 
 .box {
-  float: left;
+  text-align: center;
+}
+
+.skill {
+  width: 100px;
+  display: inline-block;
 }
